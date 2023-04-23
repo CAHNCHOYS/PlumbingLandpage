@@ -1,0 +1,100 @@
+.info-form__form-elements > *:not(:last-child) {
+  margin: 0px 0px 20px 0px;
+}
+
+.info-form__form-elements > *:first-child {
+  -webkit-transition: all 0.8s ease 0.3s;
+  -o-transition: all 0.8s ease 0.3s;
+  transition: all 0.8s ease 0.3s;
+}
+
+.info-form__form-elements > *:nth-child(2) {
+  -webkit-transition: all 0.8s ease 0.6s;
+  -o-transition: all 0.8s ease 0.6s;
+  transition: all 0.8s ease 0.6s;
+}
+
+.info-form__form-elements > *:nth-child(3) {
+  -webkit-transition: all 0.8s ease 0.9s;
+  -o-transition: all 0.8s ease 0.9s;
+  transition: all 0.8s ease 0.9s;
+}
+
+.info-form__form-elements > *:nth-child(4) {
+  -webkit-transition: all 0.8s ease 1.2s;
+  -o-transition: all 0.8s ease 1.2s;
+  transition: all 0.8s ease 1.2s;
+}
+
+.info-form__form-elements > *:nth-child(5) {
+  -webkit-transition: all 0.8s ease 1.5s;
+  -o-transition: all 0.8s ease 1.5s;
+  transition: all 0.8s ease 1.5s;
+}
+
+.info-form__form-element textarea {
+  resize: vertical;
+  max-height: 600px;
+  padding: 24px !important;
+  min-height: 240px;
+}
+
+.info-form__input,
+.info-form__form-element textarea {
+  border-radius: 10px;
+  background-color: #f6f6f8;
+  height: 60px;
+  width: 100%;
+  font-size: 1rem;
+  color: cornflowerblue;
+  padding: 0px 24px;
+}
+
+.info-form__input::-webkit-input-placeholder, .info-form__form-element textarea::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b8b5c9;
+}
+
+.info-form__input::-moz-placeholder, .info-form__form-element textarea::-moz-placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b8b5c9;
+}
+
+.info-form__input:-ms-input-placeholder, .info-form__form-element textarea:-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b8b5c9;
+}
+
+.info-form__input::-ms-input-placeholder, .info-form__form-element textarea::-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b8b5c9;
+}
+
+.info-form__input::placeholder,
+.info-form__form-element textarea::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #b8b5c9;
+}
+
+.info-form__input:focus,
+.info-form__form-element textarea:focus {
+  border: 1px solid lightgreen;
+}
+
+.info-form__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.info-form__btn button {
+  padding: 0px 80px 0px 80px;
+}
