@@ -1,4 +1,4 @@
 # PlumbingLandpage
 
-Верстка лендинга с использованим SCSS, анимаций.
-Результат: 
+Верстка лендинга с использованим GULP, SCSS , анимаций.
+Результат - https://cahnchoys.github.io/PlumbingLandpage/
